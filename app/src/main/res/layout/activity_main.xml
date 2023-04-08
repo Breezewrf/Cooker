@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/light_pink"
     tools:context="com.example.finalpoject.MainActivity">
 
     <ImageView
@@ -33,6 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text="@string/detect"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,6 +59,8 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:text="pre"
+        android:textColor="@color/white"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/selectButton"
@@ -69,6 +73,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="@string/select"
+        android:textColor="@color/white"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/liveButton"
@@ -80,6 +85,7 @@
         android:id="@+id/liveButton"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="@string/live"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
